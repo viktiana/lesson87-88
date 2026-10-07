@@ -30,3 +30,21 @@
     transition: 0.3s;
 }
 
+@media (max-width: 768px) {
+    .header {
+        height: 120px;
+        padding: 0 25px;
+    }
+
+    .header-logo {
+        font-size: 21px;
+    }
+
+    .nav-list {
+        gap: 15px;
+    }
+
+    .nav-link {
+        font-size: 13px;
+    }
+}
